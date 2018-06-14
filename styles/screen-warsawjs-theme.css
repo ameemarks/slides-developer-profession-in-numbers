@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+h3 {
+    color: #f7302f;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+    color: gray;
+}
+
+em {
+    color: #f7302f;
+    font-style: normal;
+}
+
+a {
+    color: #2380e6;
+    background: linear-gradient(to top, currentColor .09em, transparent .09em) repeat-x;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+video {
+    width: 1210px;
+    height: 681px;
+    cursor: pointer;
+    background: #000 url("../images/movie.png") no-repeat center center;
+}

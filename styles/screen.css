@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 80px !important;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+h3 {
+    border-bottom: 1px solid;
+    font-size: 45px !important;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+    color: gray;
+}
+
+a {
+    color: #2380e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    line-height: 1.6em;
+}
+
+iframe {
+    border: 0;
+}
+
+code {
+    background: #444;
+    color: #fff;
+    padding: 2px 15px;
+    margin: 3px 0;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+mark {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 0 15px;
+    background: #f0db4f;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.remark-slide-content {
+    margin-top: 0;
+    font-size: 26px;
+}
+
+.slim {
+    font-weight: 100;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.remark-slide-content.slide-fullscreen-background {
+    background-size: contain;
+}
